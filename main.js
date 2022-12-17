@@ -1,5 +1,5 @@
 let hero = document.getElementById("hero");
-let rand_no = 1//Math.floor(Math.random() * 5);
+let rand_no = Math.floor(Math.random() * 5);
 
 hero.style.backgroundImage = `url('./media/stranger-things-${rand_no}.jpg')`;
 
